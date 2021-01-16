@@ -76,3 +76,9 @@ FAILED src/test_sample.py::test_inc - assert 4 == 5
 ====================================== 1 failed in 0.49s ======================================
 
 ```
+
+## Run tests with coverage
+
+```bash
+pytest --cov=src --cov-report html
+```
